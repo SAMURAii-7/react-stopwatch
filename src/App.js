@@ -1,5 +1,8 @@
 //
-//      Check the deployed app here: https://react-stopwatch-rose.vercel.app/
+//
+//      Checkout the Github repo here: https://github.com/SAMURAii-7/react-stopwatch
+//
+//      Checkout the deployed app here: https://react-stopwatch-rose.vercel.app/
 //
 
 import { useState } from "react";
