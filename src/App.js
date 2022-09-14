@@ -1,3 +1,7 @@
+//
+//      Check the deployed app here: https://react-stopwatch-rose.vercel.app/
+//
+
 import { useState } from "react";
 import "./App.css";
 import Button from "./components/Button";
