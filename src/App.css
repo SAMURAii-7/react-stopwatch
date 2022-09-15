@@ -29,6 +29,10 @@ body {
     background: #e94560;
     padding: 50px 50px 10px 50px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .digits-container {
@@ -42,6 +46,7 @@ body {
 .digits {
     background: #fff;
     padding: 30px;
+    margin: 15px;
     font-size: 2rem;
     border-radius: 10px;
     width: 100px;
@@ -53,7 +58,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .btn-double {
@@ -78,4 +83,23 @@ body {
 .btn:hover {
     transition: ease-in 0.1s;
     transform: scale(1.05);
+}
+
+@media (max-width: 700px) {
+    .content {
+        width: 360px;
+    }
+
+    .digits-container {
+        width: 350px;
+    }
+
+    .digits {
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .btn {
+        margin-top: 10px;
+    }
 }
